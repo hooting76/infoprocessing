@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
+
+html{font-family: 'Noto Sans KR', sans-serif;}
+ul,li{list-style: none;}
+body{background: lightskyblue;}
+hr{width: 80%;}
+
+#wrap{width: 1400px; height: auto; margin: 0 auto; }
+.inner{ background: #fff; border: 2px solid black; width: 100%; height:auto; border-radius: 15px;}
+.textarea{margin: 0 auto; width: 100%; height: auto; padding: 50px 50px;}
+dt{margin: 15px; font-weight: 500; font-size: 24px;}
+dd{margin-top: 5px;}
+.textarea dl :nth-child(15)::after{content: " 비선점형이란 하나의 프로세스가 끝나지 않으면 다른 프로세스는 CPU를 사용할 수 없다 란 뜻"; color: lightseagreen; font-size: 16px;}
